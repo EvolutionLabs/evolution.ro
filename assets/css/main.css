@@ -112,7 +112,12 @@
 	}
 
 	@media screen and (min-width: 737px) and (max-width: 1200px) {
+		#logo > a > img {
+			width:100%;
+			height:auto;
+			max-width: 760px;
 
+		}
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 1250px;
@@ -1984,7 +1989,7 @@
 		/* Logo */
 
 			#logo {
-				position: absolute;
+
 				height: 5em;
 				top: 50%;
 				left: 0;
@@ -2621,6 +2626,13 @@
 
 			#logo {
 				text-align: center;
+			}
+
+			#logo > a > img {
+				width:100%;
+				height:auto;
+				max-width: 760px;
+
 			}
 
 				#logo h1 {
