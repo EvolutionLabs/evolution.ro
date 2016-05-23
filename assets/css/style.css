@@ -11,7 +11,12 @@ button.style1,
 .wrapper.style1 .title {
     background-color: #e26e4a;
 }
-
+#clients {
+    padding: 0 1em;
+}
+section#contact {
+    margin-left: 2em;
+}
 .feature-list h3 {
     color: #e26e4a !important;
 }
@@ -192,6 +197,11 @@ button.style1,
         font-size: 2.25em;
     }
 
+}
+@media (min-width: 737px) {
+    #logo {
+        transform: translateY(-50%);
+    }
 }
 
 @media (max-width: 736px) {
