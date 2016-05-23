@@ -223,4 +223,8 @@ section#contact {
         line-height: 1.25em;
         padding: 1.25em;
     }
+    textarea {
+        max-width: 30em;
+        margin: 0 auto;
+    }
 }
